@@ -50,21 +50,21 @@
 }
 
 .table__hobbies {
-  border: 1px solid #008000;
+  border: 1px solid darkblue;
   border-radius: 10px 0 0 10px;
 }
 
 .table__hobbies-title,
 .table__social-title {
-  border-bottom: 1px solid green;
+  border-bottom: 1px solid darkblue;
   text-align: center;
-  color: green;
+  color: black;
   padding: 5px 0;
   font-weight: bold;
 }
 
 .table__social {
-  border: 1px solid #008000;
+  border: 1px solid darkblue;
   border-radius: 0 10px 10px 0;
 
 }
@@ -83,16 +83,16 @@
 
 .table__list-item:hover {
   cursor: pointer;
-  color: green;
+  color: darkblue;
 }
 
 .table__list-item>a {
   text-decoration: none;
-  color: black;
+  color: darkblue;
 }
 
 .title {
-  background: green;
+  background: darkblue;
   border-radius: 10px;
   text-align: center;
   color: white;
@@ -122,9 +122,9 @@
 }
 
 .technologies__item:hover {
-  box-shadow: 0 4px 20px 0 #5a9645;
+  box-shadow: 0 4px 20px 0 #e4e5e9;
   cursor: pointer;
-  background: green;
+  background: rgb(3, 3, 255);
 }
 
 .form {
@@ -153,7 +153,7 @@
   /* justify-self: center; */
   margin: 0 auto;
   color: white;
-  background: green;
+  background: darkblue;
   border-radius: 10px;
   border: none;
   padding: 10px;
