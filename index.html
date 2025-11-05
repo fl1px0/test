@@ -2,80 +2,66 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
 </head>
 
 <body>
-  <div class="wrapper">
-    <header class="header">
-      <img class="header__img" src="./images/avatar.png" alt="Аватар пользователя">
-      <div class="header__info">
-        <h1 class="h1">Ульви Нуриев</h1>
-        <p>Student</p>
-      </div>
-      <div class="header__contacts">
-        <h2 class="h2">Контакты</h2>
-        <span>+79224122272</span>
-        <span>ulvinur2007@gmail.com</span>
-      </div>
-    </header>
-    <hr>
-    <p class="about">
-      <b>Немного обо мне:</b> Мне 17 лет.Учусь в СурГУ,занимаюсь товаркой.
-    </p>
-    <div class="table">
-      <div class="table__hobbies">
-        <div class="table__hobbies-title">Хобби</div>
-        <div class="table__content">
-          <ul class="table__list">
-            <li class="table__list-item">Создание битов в FL studio</li>
-            <li class="table__list-item">Продажа кроссовок на авито</li>
-          </ul>
+    <div class="wrapper">
+
+        <div class="menu">
+            <h1 class="menu_title">
+                Мои заметки
+            </h1>
+
+            <button class="menu_button">
+                Новая заметка
+            </button>
+
+            <h2 class="tegs">Теги</h2>
+            <div class="tegs_li">Все</div>
+            <div class="tegs_li">Идеи</div>
+            <div class="tegs_li">Личное</div>
+            <div class="tegs_li">Работа</div>
+            <div class="tegs_li">Список покупок</div>
         </div>
-      </div>
-      <div class="table__social">
-        <div class="table__social-title">Соцсети</div>
-        <div class="table__content">
-          <ol class="table__list">
-            <li class="table__list-item">VK</li>
-            <li class="table__list-item">Instagram</li>
-            <li class="table__list-item">Telegram</li>
-          </ol>
+
+        <div class="content">
+
+            <div class="search">
+                <input type="text" class="forma_input" placeholder="поиск">
+                <button class="search_button"></button>
+            </div>
+
+            <div class="zadachi">
+                <div class="zadachi_item">
+                    <div class="zadachi_item-top">
+                        <span>Сдать</span>
+                        <span>отчёт</span>
+                    </div>
+                    <div class="zadachi_item-down">
+                        <span>23 июля 2024</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="zadachi">
+                <div class="zadachi_item">
+                    <div class="zadachi_item-top">
+                        <span>Сдать</span>
+                        <span>отчёт</span>
+                    </div>
+                    <div class="zadachi_item-down">
+                        <span>23 июля 2024</span>
+                    </div>
+                </div>
+            </div>
+
         </div>
-      </div>
 
     </div>
-    <div class="title">Интересующие технологии</div>
-    <div class="technologies">
-      <div class="technologies__item">
-        <img src="./images/fll.jpg" alt="FL studio">
-        <span>FL studio</span>
-      </div>
-      <div class="technologies__item">
-        <img src="./images/js.jpg" alt="JavaScript">
-        <span>JavaScript</span>
-      </div>
-      <div class="technologies__item">
-        <img src="./images/python.jpg" alt="Python">
-        <span>Python</span>
-      </div>
-      <div class="technologies__item">
-        <img src="./images/avito.png" alt="Avito">
-        <span>Avito</span>
-      </div>
-    </div>
-    <div class="title">Форма обратной связи</div>
-    <form class="form">
-      <input class="form__input" type="text" placeholder="Ваше имя">
-      <input class="form__input" type="number" placeholder="Телефон">
-      <textarea rows="10" class="form__textarea" placeholder="Ваш вопрос"></textarea>
-      <button class="form__button">Отправить</button>
-    </form>
-  </div>
-
 </body>
 
 </html>
